@@ -1,60 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-/* ======== Importar la fuente Poppins desde Google ======== */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
-/* ======== Aplicar la fuente global ======== */
-body, h1, h2, h3, h4, h5, h6, p, a, button {
-    font-family: 'Poppins', sans-serif !important;
-}
-
-/* ======== Colores globales ======== */
 body {
-    color: #363636; /* Text color */
+  background-color: yellow !important;
+  color: black !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 20px !important;
+  text-align: center !important;
 }
 
-/* ======== Enlaces ======== */
-a {
-    color: #00A89C !important; /* Links color */
-}
-a:hover {
-    color: #242424 !important; /* Links hover color */
-}
-
-/* ======== Encabezados ======== */
-h1, h2, h3, h4, h5, h6 {
-    color: #242424 !important; /* Headings color */
+/* Encabezados exagerados */
+h1, h2, h3 {
+  color: red !important;
+  font-size: 50px !important;
+  text-transform: uppercase !important;
 }
 
-/* ======== Botones ======== */
-button, .btn {
-    background-color: #435764 !important; /* Default button */
-    color: #ffffff !important;
-    border-radius: 6px;
-    padding: 8px 16px;
-}
-button.primary, .btn-primary {
-    background-color: #E63946 !important; /* Primary button */
-}
-
-/* ======== Colores de acento (puedes aplicarlos a secciones específicas si quieres diferenciación) ======== */
-.accent1 {
-    background-color: #00A89C !important;
-}
-.accent2 {
-    background-color: #008C87 !important;
-}
-.accent3 {
-    background-color: #2B353B !important;
+/* Botones con estilos extremos */
+button, .btn, .btn-primary {
+  background-color: black !important;
+  color: lime !important;
+  font-size: 24px !important;
+  border-radius: 12px !important;
+  border: 4px dashed lime !important;
+  padding: 16px !important;
 }
 
-/* ======== Logo en la cabecera ======== */
-header .logo img {
-    content: url('/theme/image.php/boost/theme/1670000000/image'); /* Esta línea se debe actualizar con la URL correcta del logo */
-    height: 40px;
+/* Fondo del header y footer llamativos */
+header, footer, .navbar {
+  background-color: fuchsia !important;
+  color: white !important;
+  padding: 20px !important;
 }
 
-/* Opcional: Cambiar color de la barra de navegación o footer si se desea */
-.navbar, footer {
-    background-color: #008C87 !important;
-    color: white !important;
+/* Estilo para los párrafos */
+p {
+  background-color: cyan !important;
+  padding: 10px !important;
+  border: 2px dotted red !important;
 }
+
